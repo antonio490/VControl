@@ -38,3 +38,4 @@ Right now, your HEAD should still be 'detached' from Lesson 1 when you checked o
 - We checkout that branch:
 <kbd> git checkout exp </kbd>
 
+Whenever a create a new context or an experimental move, it is a good time to create a new branch. It is also important to have a master branch that always works. The Master branch should be the production branch.

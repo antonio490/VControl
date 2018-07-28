@@ -2,17 +2,17 @@
 
 > Antonio Sanz - Clase 1 "Navigating a commit history"
 
-<code>
-    $ubuntu diff -u app.html app_old.html
 
-</code>
+<kbd> diff -u app.html app_old.html</kbd>
+
+
 
 ### Using git to view history
 
-> git log. I get every commit starting by the most recent. It shows a message and Id to show who made this commit.
+I get every commit starting by the most recent. It shows a message and Id to show who made this commit.
 
-<code>
-    $ git log
+
+<kbd>git log</kbd>
 
     commit ee54f948c2ef2efece1d7a7d2c59a87d79eb576f (HEAD -> master, origin/master)
     Author: antonio490 <asc490@hotmail.com>
@@ -26,12 +26,9 @@
 
     merge dfs
 
-</code>
+git diff. It can compare two versions of a file.
 
-> git diff. It can compare two versions of a file.
-
-<code>
-    $ git diff
+<kbd>git diff</kbd>
 
     diff --git a/Numpy and Pandas for 2D Data.ipynb b/Numpy and Pandas for 2D Data.ipynb
     index a622a92..76311df 100644
@@ -55,7 +52,7 @@
     -   "execution_count": 32,
     +   "execution_count": 36,
 
-</code>
+
 
 ### How often to commit
 
@@ -65,9 +62,7 @@ It is a good idea to keep commits small. As the diff between two versions gets b
 
 git log --stat. It shows number of insertions, deletions and number of files that have changed on each commit.
 
-<code>
-
-    git log --stat 
+<kbd>git log --stat </kbd>
 
     commit ee54f948c2ef2efece1d7a7d2c59a87d79eb576f (HEAD -> master, origin/master)
     Author: antonio490 <asc490@hotmail.com>
@@ -77,18 +72,15 @@ git log --stat. It shows number of insertions, deletions and number of files tha
 
      Numpy and Pandas for 2D Data.ipynb | 137 ++++++++++++++++++++++++++++++++++---
     1 file changed, 126 insertions(+), 11 deletions(-)
-</code>
+
 
 ## Clone a repository
 
 Copy an entire repository on my computer with:
-<code>
 
-   $ git clone url
-   $ git log
-   $ git log --stat
-</code>
-
+<kbd>git clone url</kbd>
+<kbd>git log</kbd>
+<kbd>git log --stat</kbd>
 
 ### Repository
 
@@ -102,10 +94,8 @@ Copy an entire repository on my computer with:
 
 Checkout older commits
 
-<code>
+<kbd>git checkout (id) </kbd>
 
-    $ git checkout <id>
-</code>
 
 ### Configuration Git Workspace
 
