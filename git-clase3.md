@@ -50,3 +50,7 @@ Whenever a create a new context or an experimental move, it is a good time to cr
 To know which changes were introuduced from its parent
 
 <kbd>git show</kbd>
+
+### Conflict detection
+
+Sometimes we try to make a merge with two functions located in the same area of your file.Git asks us everytime if we want to keep both functions or delete one of them.
