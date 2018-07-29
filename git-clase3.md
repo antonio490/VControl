@@ -39,3 +39,14 @@ Right now, your HEAD should still be 'detached' from Lesson 1 when you checked o
 <kbd> git checkout exp </kbd>
 
 Whenever a create a new context or an experimental move, it is a good time to create a new branch. It is also important to have a master branch that always works. The Master branch should be the production branch.
+
+<kbd>git checkout -b new_branch_name</kbd>=<kbd> git branch new_branch_name </kbd>+<kbd>git checkout new_branch_name</kb>
+
+### Merging files
+
+<kbd>git checkout master_branch</kbd>
+<kbd>git merge master_branch other_branch - "merge master with coins branch"</kbd>
+
+To know which changes were introuduced from its parent
+
+<kbd>git show</kbd>

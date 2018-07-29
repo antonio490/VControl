@@ -26,7 +26,7 @@ I get every commit starting by the most recent. It shows a message and Id to sho
 
     merge dfs
 
-git diff. It can compare two versions of a file.
+It can compare two versions of a file.
 
 <kbd>git diff</kbd>
 
@@ -60,7 +60,7 @@ It is a good idea to keep commits small. As the diff between two versions gets b
 
 ### Multiple files commits
 
-git log --stat. It shows number of insertions, deletions and number of files that have changed on each commit.
+It shows number of insertions, deletions and number of files that have changed on each commit.
 
 <kbd>git log --stat </kbd>
 
@@ -79,7 +79,9 @@ git log --stat. It shows number of insertions, deletions and number of files tha
 Copy an entire repository on my computer with:
 
 <kbd>git clone url</kbd>
+
 <kbd>git log</kbd>
+
 <kbd>git log --stat</kbd>
 
 ### Repository
