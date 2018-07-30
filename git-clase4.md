@@ -15,3 +15,7 @@ What happens if we make a commit on our github repository??
 We have to update our local repository since it is not present.
 
 <kbd> git pull origin master </kbd>
+
+### Forking a repository
+
+It is possible to clone a repository from someone else and push our changes without affecting the original copy. Forking allow us to do this and also to give recognition to the author from the original repository.
